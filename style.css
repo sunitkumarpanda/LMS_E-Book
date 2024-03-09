@@ -86,6 +86,7 @@ a{
 .category-container{
     /* Gap = 5 to 6px */
     margin-left: 6px;
+    margin-right: 6px;
     display: inline-block;
 
     padding: 26px 48px;
