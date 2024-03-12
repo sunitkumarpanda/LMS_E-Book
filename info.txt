@@ -1,0 +1,5 @@
+1. E-library Web-Application like amazon kindly, webtoon etc.
+2. It have different category of different books.
+3. funny animation and UI for attractiveness.
+4. Online books read and download available.
+5. We have menu bar on bottom and additional feature on left-vertical menu bar.
