@@ -154,6 +154,34 @@ a{
 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.book-detail-container{
+    
+    & .book-detail-img-container{
+        
+        top: 0%;
+        overflow: hidden;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(228, 255, 244);
+        border-radius: 5px;
+
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    & p{
+        margin-top: .5rem;
+        width: 100%;
+        /* background-color: red; */
+        /* overflow: hidden; */
+        /* display: block; */
+
+    }
+}
 /* end home page recommend book */
 .department{
     font-weight: 600;
