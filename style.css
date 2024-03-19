@@ -181,6 +181,10 @@ a{
         /* display: block; */
 
     }
+
+    & .view-btn{
+        margin-top: 3.5rem;
+    }
 }
 /* end home page recommend book */
 .department{
