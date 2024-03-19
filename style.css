@@ -183,7 +183,11 @@ a{
     }
 
     & .view-btn{
-        margin-top: 3.5rem;
+        margin-top: 4.5rem;
+    }
+
+    & .download-btn{
+        margin-top: .5rem;
     }
 }
 /* end home page recommend book */
