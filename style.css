@@ -111,12 +111,13 @@ a{
 
 /* home page */
 .heading-text{
+    margin-top: 1.5rem;
     font-family: "Lustria", serif;
     /* font-weight: 400; */
     letter-spacing: 1px;
     font-size: 2rem;
     padding-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     /* background-color: tomato; */
 }
 /* end home page */
@@ -187,6 +188,8 @@ a{
     }
 
     & .download-btn{
+        /* top: 100%; */
+        /* position: sticky; */
         margin-top: .5rem;
     }
 }
