@@ -388,3 +388,53 @@ a{
     -o-border-radius: 50%;
 }
 /* end bottom barr */
+
+
+
+
+
+
+/* start responsive website */
+@media screen and (width <= 450px) {
+    .main{
+        /* & .top-menu-bar{
+            & h1{
+                font-size: ;
+            }
+        } */
+
+        & .department{
+            font-size: 2.5rem;
+        }
+
+        & .semester{
+            font-size: 2.5rem;
+        }
+
+        & .e-book--container{
+            padding: 1.8rem;
+        }
+
+        & .e-book{
+            height: 9rem;
+            padding: 1rem;
+
+            & p{
+                /* font-size: 1.5rem; */
+                font-size: 1.8rem;
+            }
+        }
+
+        & .e-book--btn--container{
+            flex-direction: column;
+            gap: .2rem;
+        }
+
+        & .btn{
+            padding: 1rem .2rem;
+            width: 7rem;
+            font-size: 1rem;
+        }
+    }
+}
+/* end responsive website */
