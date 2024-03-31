@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- start pre loader -->
+    <!-- <p>Page content</p> -->
+    <div class='pre-loader'>
+        <img class='loading-gif' alt='loading' src="https://media0.giphy.com/media/11FuEnXyGsXFba/source.gif"/>
+        <!-- <img src="/assets/images/preloader.png" alt=""> -->
+    </div>
+    <!-- end pre loader -->
+
     <!-- main section / container -->
     <section class="main">
         <!-- top bar -->
@@ -435,5 +443,13 @@
           </div>
           <!-- end footer sticky bar -->
     </section>
+
+
+    <!-- js to hide preloader loading is done -->
+<script type='text/javascript'>
+    window.addEventListener('load', function () {
+        document.querySelector('.pre-loader').className += ' hidden';
+    });
+</script>
 </body>
 </html>
