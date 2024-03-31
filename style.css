@@ -449,3 +449,37 @@ a{
     }
 }
 /* end responsive website */
+
+
+
+
+/* start pre loader */
+.loading-gif {
+    max-width: 500px;
+}
+
+.pre-loader {
+    position: fixed;
+    z-index: 100; /** make sure this is the highest value compared to all other divs **/
+    top: 0;
+    left: 0;
+    background: #191f26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.pre-loader.hidden {
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+/* end pre loader */
