@@ -381,8 +381,8 @@ a{
 
 .btm-item--container{
 
-    color: #A2A2A2;
-    background-color: var(--btn-vew-color);
+    /* color: #A2A2A2;
+    background-color: var(--btn-vew-color); */
 
     padding: 1.2rem;
 
@@ -391,6 +391,16 @@ a{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.btm-item--container:hover{
+    color: #A2A2A2;
+    background-color: var(--btn-vew-color);
+}
+
+.btm-item--container:focus-visible{
+    color: #A2A2A2;
+    background-color: var(--btn-vew-color);
 }
 /* end bottom barr */
 
