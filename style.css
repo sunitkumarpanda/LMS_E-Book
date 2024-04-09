@@ -149,8 +149,10 @@ a{
     flex-direction: column; */
 
     padding: 12px 11px;
-    width: 112px;
-    height: 221px;
+    /* width: 112px; */
+    width: 12rem;
+    /* height: 221px; */
+    height: auto;
     background-color: #fff;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -169,7 +171,7 @@ a{
         overflow: hidden;
         width: 100%;
         /* height: 9rem; */
-        height: 13.5rem;
+        height: 15rem;
         background-color: rgb(228, 255, 244);
         border-radius: 5px;
 
@@ -192,12 +194,14 @@ a{
     & .view-btn{
         /* margin-top: 1.5rem; */
         margin-top: 1rem;
+        width: 100%;
     }
 
     & .download-btn{
         /* top: 100%; */
         /* position: sticky; */
         margin-top: .5rem;
+        width: 100%;
     }
 }
 /* end home page recommend book */
